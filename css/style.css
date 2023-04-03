@@ -1,0 +1,36 @@
+body{
+    background-color: rgba(4, 10, 34, 0.89);
+}
+.container{
+   width: 60%;
+   height: 50%;
+   padding: 30px;
+   margin: 10% auto;
+   background-color: darkslategrey;
+       text-align: center;
+}
+.anim-skill{
+    position: relative;
+    font-size: 30px;
+    padding-right: 5px;
+
+}
+.anim-skill::after{
+    position: absolute;
+    content: '';
+
+    right: 0;
+    height: 35px;
+    width: 2px;
+    background-color: orange;
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(43, 43, 51);
+    color: white;
+    font-size: 14px;
+    padding: 30px;
+}
